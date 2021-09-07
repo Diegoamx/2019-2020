@@ -1,0 +1,28 @@
+Diego Murcia
+CS111 Project Reflection
+
+For my project, I used the script for an episode of “Friends” known as “The One With The Holiday Armadillo”, as well as the script for an episode of “The Fresh Prince of Bel Air” known as “Papa’s Got a Brand New Excuse”. With these two episodes, I compared scenes dialogue from different episodes of “Drake and Josh”. My results were:
+
+1. Drake and Josh - Finger Scene
+scores for:  Friends [-1428.8656960230167, -405.029557321745, -1423.9493714083915, -713.8194162181644]
+scores for:  Fresh Prince of Bel Air [-1365.7576637761426, -403.9838972753824, -1360.7036921685597, -685.1349631965094]
+Drake and Josh- Finger Scene  is more likely to have come from  Fresh Prince of Bel Air
+
+2. Drake and Josh - Football Scene
+scores for:  Friends [-1194.128892023528, -356.632422164061, -1190.4401490384876, -731.3274220851529]
+scores for:  Fresh Prince of Bel Air [-1141.1938514392266, -365.15086874970604, -1138.372114942216, -707.0053154998667]
+Drake and Josh - Football Scene  is more likely to have come from  Fresh Prince of Bel Air
+
+3. Drake and Josh - Pilot Scene
+scores for:  Friends [-1287.486663056316, -372.72781804595036, -1278.939402022877, -802.2319190866568]
+scores for:  Fresh Prince of Bel Air [-1223.8383912442976, -377.1106070984695, -1214.289725067051, -774.7682461830577]
+Drake and Josh - Pilot Scene  is more likely to have come from  Fresh Prince of Bel Air
+
+4. Drake and Josh - Tree Scene
+scores for:  Friends [-485.0680895221128, -140.56746627345646, -484.9139388422855, -324.7947403042373]
+scores for:  Fresh Prince of Bel Air [-478.7280919138779, -133.9867656849457, -478.6410805368883, -311.9008759956789]
+Drake and Josh - Tree Scene  is more likely to have come from  Fresh Prince of Bel Air
+
+As my results show, all of my tests concluded that all scenes from “Drake and Josh” are more closely related to “Fresh Prince of Bel Air” than “Friends”. This results, I believe, are actually true, considering that both “Drake and Josh” and “Fresh Prince of Bel Air” were aired by the same studio, Nickelodeon, as well as they were both intended for teenage audiences. “Friends” however, had the tendency and the vocabulary for older and more mature audiences. Because of this, it is reasonable that in terms of vocabulary and text, “Drake and Josh” is very similar to “Fresh Prince of Bel Air”. Thus, I believe that my code is accurate in its results, in regards to the answer it was able to give.
+
+Overall, I believe that my text classification program is rather solid, but not entirely accurate. Though I can only say from speculation, as well as considering that I am a fan of all shows tested, I believed initially that “Drake and Josh” would be more compared to “Friends”, because of the mannerisms that come into the addressing of certain texts. However, there are several potential errors that are possible. One possible error is that the scripted scenes may be incorrect. While I did check to determine their accuracy in comparison to the actual episode, there are key phrases that are not necessarily English words. For example, using the word “shaking” in comparison to using the word “shakin’”. While it can be true that the code will pick it up and compare the stem roots, some words are slightly more complicated beyond this example, and could very well have caused an error in reading it. Another potential room for improvement would be eliminating the character speech indication. In this specific example with scripts from television shows, some of the transcripts have an indication of which characters are saying what phrases. Because these are also picked up by my code and calculated, there is the potential of this error. Overall however, if common text or books were to be analyzed, there would not be this issue, and the accuracy of this might hold better. Overall, I feel like my code is still successful in determining the accuracy of certain texts in comparison to others.
