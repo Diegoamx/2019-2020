@@ -1,2 +1,2 @@
 # CS-111-Final-Project
-Projects/programming assignments performed at Boston University between 2019 and 2020.
+This is the final project program I coded at Boston University in the Fall of 2019. This program analyzes the text/dialogue between two text files, and compares them by their most common words to measure how similar both text files are. My project was intended to analyze the scripts of a 'Fresh Prince of Bell Air" scene and a "Friends" scene with multiple scenes from "Drake and Josh" and determine which of the two shows closely reselmbles the scenes from "Drake and Josh" based on the wording and phrases used. My findings concluded that from the scenes chosen, the script of "Drake and Josh" resembles "Fresh Prince of Bel Air" the most.
